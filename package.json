@@ -1,0 +1,41 @@
+{
+    "name": "android-manager",
+    "version": "1.0.0",
+    "description": "Android Manager for Skynet",
+    "main": "index.js",
+    "scripts": {
+        "build": "parcel build index.html --no-minify --public-url /",
+        "dev": "parcel watch index.js --no-hmr"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/teriyakigod2/intetics-lab-task.git"
+    },
+    "keywords": [
+        "android",
+        "manager",
+        "skynet"
+    ],
+    "author": "teriyakigod2",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/teriyakigod2/intetics-lab-task/issues"
+    },
+    "homepage": "https://github.com/teriyakigod2/intetics-lab-task#readme",
+    "dependencies": {
+        "babel-preset-react-app": "^3.1.2",
+        "react": "^16.4.1",
+        "react-bootstrap": "latest",
+        "react-dom": "^16.4.1",
+        "react-router-dom": "latest",
+        "src": "^1.1.2"
+    },
+    "devDependencies": {
+        "babel": "^6.23.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "prop-types": "^15.6.1",
+        "parcel-bundler": "^1.9.4"
+    }
+}
