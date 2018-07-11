@@ -23,12 +23,13 @@
     },
     "homepage": "https://github.com/teriyakigod2/intetics-lab-task#readme",
     "dependencies": {
+        "antd": "^3.6.6",
         "babel-preset-react-app": "^3.1.2",
         "react": "^16.4.1",
-        "react-bootstrap": "latest",
         "react-dom": "^16.4.1",
         "react-router-dom": "latest",
-        "src": "^1.1.2"
+        "src": "^1.1.2",
+        "styled-components": "^3.3.3"
     },
     "devDependencies": {
         "babel": "^6.23.0",
